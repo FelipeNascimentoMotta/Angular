@@ -1,0 +1,25 @@
+.card {
+    max-width: 350px;
+    background-color: orangered;
+    border-radius: 25px;
+    padding: 30px;
+
+    &_item{
+        padding: 10px;
+    }
+    &_header{
+        font-size: 22px;
+    }
+    &_price{
+        font-weight: 600;
+        font-size: 40px;
+    }
+    &_button{
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 25px;
+        background-color: white;
+    }
+
+}
